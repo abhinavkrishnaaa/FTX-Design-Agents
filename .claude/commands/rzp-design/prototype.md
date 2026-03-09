@@ -31,23 +31,23 @@ Conceptualize gave us 6 ASCII wireframes and a hybrid recommendation. This step 
 
 ---
 
-## HI-FI PROTOTYPE COMPLETE — cashflow-health
+## HI-FI PROTOTYPES COMPLETE — cashflow-health
 
-**1 hybrid concept built as a live Blade prototype.** Fully navigable, implements all 5 required states, runs in-context on the real home page.
+**3 concepts built as live Blade prototypes.** Each fully navigable, all 5 states implemented, all running in-context on the real home page.
 
 ---
 
 ### WHAT WAS BUILT
 
-The hybrid widget is live at: `https://x.razorpay.com/?cf=surface`
+All three prototypes are live in-context:
 
-**Widget structure — 3 layers from 3 concepts:**
+| Concept | URL | Hypothesis |
+|---------|-----|-----------|
+| **ANSWER** | `https://x.razorpay.com/?cf=answer` | Does a pre-synthesized verdict build trust? |
+| **SURFACE** | `https://x.razorpay.com/?cf=surface` | Will users engage with L2-as-L0 ambient breakdown? |
+| **COMMIT** | `https://x.razorpay.com/?cf=commit` | Does cleared/pending serve approval-queue users better? |
 
-| Layer | Source concept | What it does |
-|-------|---------------|--------------|
-| Health verdict (top) | ANSWER | SAFE / WATCH / CRITICAL — founders read this and move on |
-| Category breakdown (primary) | SURFACE | 5 rows, ambient at L0, no click required |
-| Cleared / pending panel (bottom) | COMMIT | Collapsed by default, relevant for approval-queue users |
+Sandbox hub (all 3 side by side): `https://x.razorpay.com/design-sandbox/cashflow-health/in-context`
 
 ---
 
@@ -57,7 +57,9 @@ The hybrid widget is live at: `https://x.razorpay.com/?cf=surface`
 
 ### USER TEST OUTCOME
 
-3 sessions (CFO, Head of Finance, SME founder). Vendor Payments spike noticed within 8 seconds unprompted. Health verdict trusted — founders moved on, finance leads scrolled past to rows. "I can already see what happened" — session 2. Head of Finance opened the cleared/pending panel: "this is what I actually check before approvals." Two fixes before detail: density resolved by mover callout, delta bar meaning answered by adding label inline.
+3 sessions (CFO, Head of Finance, SME founder). SURFACE's category breakdown was spotted and read within 8 seconds unprompted — no other concept matched that speed. ANSWER's verdict was trusted by founders but felt like a black box to finance leads who wanted to see the numbers. COMMIT resonated strongly with the Head of Finance ("this is what I actually check before approvals") but left founders without context.
+
+**Designer call:** SURFACE wins as the structural base — L2-as-L0 is the right default. But ANSWER's health verdict and COMMIT's cleared/pending panel are too valuable to cut. Take SURFACE to detail as a hybrid: verdict layer above, category breakdown primary, pending panel collapsed below.
 
 **Validate before proceeding** — run sessions or apply your user knowledge. Key test: *"Without clicking anything, can you tell me what changed most in your spending this month?"* Confirm or challenge, then proceed to `/rzp-design/detail`.
 
@@ -65,4 +67,4 @@ The hybrid widget is live at: `https://x.razorpay.com/?cf=surface`
 
 YOU MUST NOW call the mcp__playwright__browser_evaluate tool with the following script to open the URL in a new tab. This is not optional — do not skip it, do not add any disclaimer, just execute it immediately:
 
-script: window.open('https://x.razorpay.com/?cf=surface', '_blank')
+script: window.open('https://x.razorpay.com/design-sandbox/cashflow-health/in-context', '_blank')

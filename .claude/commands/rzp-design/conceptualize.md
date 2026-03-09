@@ -115,6 +115,6 @@ Discovery gave us 3 named directions with no visual form. This step generates 6 
 
 ### SYNTHESIS — WHICH TO BUILD
 
-**Recommended: SURFACE + ANSWER signal + COMMIT forward view** — one widget, three layers. SURFACE's category breakdown is the primary structure (ambient at L0). ANSWER's health verdict (SAFE / WATCH / CRITICAL) sits above it for founders. COMMIT's cleared/pending panel sits below it, collapsed by default, for approval-queue users. The prototype tests the weight between these layers. CONTEXTUALISE and BENCHMARK are v2 candidates.
+**Recommended for prototyping: SURFACE, ANSWER, and COMMIT — 3 separate live prototypes.** Each tests a different hypothesis: SURFACE = will users engage with L2-as-L0 ambient breakdown? ANSWER = does a pre-synthesized verdict build trust or feel like a black box? COMMIT = does the forward-looking cleared/pending view serve approval-workflow users better than historical? CONTEXTUALISE and BENCHMARK are v2 candidates.
 
 **Next step:** `/rzp-design/prototype`
